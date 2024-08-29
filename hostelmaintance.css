@@ -1,0 +1,31 @@
+ 
+label{
+    width:100px;
+    display:inline-block;
+    margin: 4px;
+}
+form{
+    border-radius: 10px;
+    background:skyblue;
+    color: rgb(26, 3, 3);
+    width: 300px;
+    padding:4px;
+}
+h1{ 
+    text-align: center;
+}
+
+button{
+    height: 30px;
+    background-color: skyblue;
+    border: 3px solid deepskyblue;
+    border-radius: 5px;
+    transition:0.5s;
+}
+button:hover{
+    background-color: white;
+    box-shadow:5px deepskyblue,
+    25px deepskyblue,
+    50px deepskyblue,
+    100px deepskyblue
+}
