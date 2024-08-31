@@ -1,24 +1,82 @@
-*{margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family:'Times New Roman', Times, serif;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
 }
-section{
-    min-height:100vh;
-    background-image: url("../sonam\'s\ pictures/background-image");
-    background-repeat: no-repeat;
+header{
+    background-image: linear-gradient(rgba(0,0,0,0,),rgba(0,0,0,0,)rgba(0,0,0,0,)), url(par123.jpg);
+    height: 1000vh;
     background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    width: 100px;
+ }
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
 }
-.container{
-    width: 85%;
-    margin: auto;
+
+ul li{
+    display: inline-block;
 }
-.nav{
-    height:80px;
+
+ul li a{
+    text-decoration:none;
+    color: rgb(1, 1, 1);
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
 }
-nav h1{
+ul li a:hover{
+    background-color:black;
+    color:#fff
+}
+.logo img{
     float: left;
-    line-height:80px;
-    line-height:35px;
-    font-size: inline;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.title{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:black;
+    font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.btn{
+    border: 1px solid  black;
+    padding: 5px 20px;
+    color: black;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+ 
+.btn:hover{
+    background-color:black;
+    color:white;
 }
