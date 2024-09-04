@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: mistyrose;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 67px;
+}
+span{
+    color: crimson;
+}
+h3{
+    text-align: center;
+    font: size 20px;
+    margin: 0;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: left;
+    margin: 50px 0;
+}
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: right ;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0,25)
+    0 10px rgba(0,0,0,0,22);
+    transition: 4s;
+    background: light pink;
+}
+.content :hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,23);
+    transform: translate(0px, -8px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color:gray;
+    padding-top: 0, 8px;
+}
+h5{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+}
+li{
+    padding-top: 5px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+.navbar ul li a:hover{
+    background: black;
+    color: white;
+}
+button{
+    height: 30px;
+    background-color: blanchedalmond;
+    border: 3px black;
+    border-radius: 5px;
+    transition:0.5s;
+    
+}
