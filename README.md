@@ -1,52 +1,45 @@
-Question 1
-Create an HTML form for a college seminar registration. The form 
-should include the following input fields:
- • Full Name 
-• Date of Birth 
-• Gender (Male, Female, Other)
- • Email Address 
-• Password 
-• Phone Number 
-• Preferr
- • Meal Preference (Vegetarian, Non-Vegetarian, Vegan)
- • Submit button
- A centre of excellence in science and technology enriched with GNH value
+## Project Overview for practical assignment 3
+Learning and skill development: Replicating a professional website helps in understanding advanced design techniques and coding practices.
+Portfolio building: Creating a replica demonstrates your ability to produce high-quality, professional-looking websites.
+Practice responsive design: It allows you to practice creating layouts that work across different devices and screen sizes.
 
- Question2
- Create a simple table and insert border using CSS
+## Usage
+Layout structure: Practice creating a clean, grid-based layout with proper spacing and alignment.
+Typography: Implement various font styles, sizes, and weights as seen in the original design.
+Color scheme: Replicate the minimalist black and white scheme with subtle color accents.
+Responsive design: Ensure the replica looks good on different screen sizes.
+Image integration: Practice incorporating high-quality images seamlessly into the design.
+CSS animations: Recreate subtle animations like those seen in the "design." section.
+Interactive elements: Implement hover effects and clickable elements as in the original.
+Form design: Replicate the stylized contact form.
+Navigation: Create a minimalist navigation system, including the hamburger menu.
+Custom shapes: Practice creating custom shapes with CSS, like the abstract blob in the services section.
+Grid gallery: Implement a responsive image gallery for the portfolio section.
+Performance optimization: Focus on creating efficient code for fast loading times.
 
- Question3
- create simple table usin the feature of CSS (Inline,internal Css, external Css)
+## Challenge and Solution
+Exact typography matching: Finding and implementing the exact fonts used can be difficult, especially if they're custom or premium fonts.
+Recreating custom shapes: The abstract shapes (like the light blue blob) may require advanced CSS skills.
+Responsive design implementation: Ensuring the layout remains visually appealing across all device sizes can be tricky, especially with complex layouts.
+Replicating animations: Creating smooth, subtle animations (like in the "design." section) may require advanced CSS or JavaScript knowledge.
 
- Question4
- Create an HTML file with an ordered list of atleast 5 college events. Each event should include the event name, time, and location as nested unordered list.
-Style the list using CSS to make it stand out:
-Use custom bullets or numbers instead of default ones
-Add hover effects that change the color of the text or background when the user hovers over an event.
-Include spacing and padding to ensure the list is easy to read.
+## Future Improvements
+Enhanced interactivity:
 
-Question 5
-Create an HTML form for hostel room maintenance requests and style it using css. Include informations like name, room number, type of issue, description, urgency etc.
-Some suggestions while styling the form:
-Style the form to have a clean, modern look.
-Incorporate appropriate input types and placeholders
-Use an appropriate color scheme that's easy on the eyes.
-Style form inputs consistently, including on focus states.
-Make the submit button stand out.
+Add smooth transitions between sections
+Implement a lightbox gallery for portfolio images
+Create hover effects for images and buttons
 
-Question 6
-Create an HTML table to keep track of your grades throughout the semester. You should lists all your modules, assignments, exams, and their respective scores. The table should include the following columns:
-Module
-Assignment/Exam Name
-Maximum Marks
-Marks Obtained
-Percentage
-Grade
 
-question 7
-Simple Landing Page
-Create a simple landing page for a fictional e-commerce site that sells tech gadgets. The page should include a navigation bar, a grid-based product listing section, and a footer. 
-Use semantic HTML elements like <header>, <nav>, <main>, <section>, and <footer> to structure your webpage.
-Include a navigation bar with links to "Home", "Products", "About Us", and "Contact".
-Create a product section using a grid layout to display at least 6 products with images, names, and prices.
-Add a footer with links to privacy policy, terms of service, and social media icons.
+Performance optimization:
+
+Use lazy loading for images
+Implement code splitting for faster initial load times
+Optimize and minify CSS and JavaScript
+
+## References
+https://youtu.be/Zz8A4NqoLrE?si=YP1jyxBQANVpVcGj
+https://youtu.be/U8smiWQ8Seg?si=d-u5qHZ0g3ZFjpgi
+https://youtu.be/b_8fHNIHFk4?si=9EimUhBxEzW9gdm4
+claude
+chatgbt
