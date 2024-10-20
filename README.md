@@ -7,7 +7,7 @@ should include the following input fields:
  • Email Address 
 • Password 
 • Phone Number 
-• Preferred Seminar Time
+• Preferr
  • Meal Preference (Vegetarian, Non-Vegetarian, Vegan)
  • Submit button
  A centre of excellence in science and technology enriched with GNH value
