@@ -1,9 +1,10 @@
-used 
 
 Basic HTML Structure
 <html>: The root element.
 <head>: Contains metadata and the page title (<title> tag).
 <body>: Contains the main content, in this case, the heading (<h1>) and the table (<table>).
+
+  
 2. Table Structure
 Table Elements:
 <table>: The container for the tabular data.
@@ -11,6 +12,8 @@ Table Elements:
 <th>: Table header cells, used for both the day names and the "Time Slot" label.
 <td>: Table data cells, used for the subjects and time slots.
 Row spanning: The colspan attribute is used in the lunch break row (<td colspan="5">) to span the lunch break across all five days.
+
+  
 3. CSS for Styling
 Internal CSS (within <style> tag): Used to style the table and make it visually clear and readable.
 Table Layout:
