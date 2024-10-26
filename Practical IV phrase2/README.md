@@ -1,0 +1,1 @@
+ruplicating the personal profile design in HTMl 

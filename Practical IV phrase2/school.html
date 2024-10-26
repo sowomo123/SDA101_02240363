@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .name{
+            font-family: Arial, Helvetica, sans-serif;
+
+
+        }
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe4e4;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            gap: 1rem;
+        }
+
+        .school {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            text-align: center;
+        }
+
+        .school-image {
+            width: 150px;
+            height: 250px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .school-logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1rem;
+        }
+
+        .grade {
+            background-color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+        @media (max-width: 768px) {
+            .timeline {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .school {
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="protofolio.html">Home</a>
+            <a href="aboutme.html">About me</a>
+            <a href="#schools">Schools</a>
+            <a href="ghallery.html">Gallery</a>
+            <a href="hobby.html">Hobby</a>
+        </nav></div>
+    </div>
+
+    <div class="timeline">
+        <div class="school">
+            <div class="name">ELC</div>
+            <img src="elc school.jpg" alt="ELC Students" class="school-image">
+            <div class="grade">PP-3</div>
+        </div>
+
+        <div class="school">
+            <div class="name">Changzamtok Lower secondary school</div>
+            <img src="changzamtok school.jpeg" alt="Changzamtok JSS" class="school-image">
+            <div class="grade">4</div>
+        </div>
+
+        <div class="school">
+            <div class="name">Rinchen Kuenphen school</div>
+            <img src="rkps.jpeg" alt="Rinchen Kuenphen PS" class="school-image">
+            <div class="grade">5-6</div>
+        </div>
+
+        <div class="school">
+            <div class="name">Jigme Namgyal school</div>
+            <img src="JNLSS.jpg" alt="Jigme Namgyal" class="school-image">
+            <div class="grade">7-8</div>
+        </div>
+
+        <div class="school">
+            <div class="name">Yangchenphu HSS</div>
+            <img src="yhss.jpeg" alt="Yangchenphu HSS" class="school-image">
+            <div class="grade">9-10</div>
+        </div>
+
+        <div class="school">
+            <div class="name">Sarpang central</div>
+            <img src="sarpang.jpeg" alt="Sarpang Central School" class="school-image">
+            <div class="grade">11-12</div>
+        </div>
+    </div>
+</body>
+</html>
