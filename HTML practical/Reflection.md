@@ -23,3 +23,7 @@ Padding ensures there is space inside the cells, and text-align: center; ensures
 Background Color: The table header (<th>) uses background-color: #f2f2f2; for a subtle grey tone, visually separating it from the rest of the table.
 Responsive Font: The body uses a basic sans-serif font (Arial), making the content easy to read.
 4. Semantic HTML
+1. Describe the main concepts you applied?
+2. Discuss new skills or knowledge acquired 
+3. Discuss what you learned.
+4. challenges and solution u faced?

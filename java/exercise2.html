@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <user-profile name="Sonam Wangmo" role="Software Engineering"></user-profile>
+
+    <script>
+        class UserProfile extends HTMLElement {
+            constructor() {
+                super();
+                this.attachShadow({ mode: 'open' });
+                const wrapper = document.createElement('div');
+                wrapper.classList.add('card');
+
+                const name = this.getAttribute('name') || 'Unknown';
+                const role = this.getAttribute('role') || 'No role specified';
+                wrapper.innerHTML = `
+                    <p><strong>Name:</strong> ${name}</p>
+                    <p><strong>Role:</strong> ${role}</p>
+                `;
+
+                const style = document.createElement('style');
+                style.textContent = `
+                    .card {
+                        border: 1px solid #ccc;
+                        padding: 15px;
+                        border-radius: 5px;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                        font-family: Arial, sans-serif;
+                        max-width: 200px;
+                    }
+                    p {
+                        margin: 0;
+                        padding: 5px 0;
+                    }
+                `;
+
+                this.shadowRoot.append(style, wrapper);
+            }
+        }
+
+        customElements.define('user-profile', UserProfile);
+    </script>
+
+</body>
+</html>
