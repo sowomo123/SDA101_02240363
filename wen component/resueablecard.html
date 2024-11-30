@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Card Component</title>
+  <link rel="stylesheet" href="java.js">
+  <script src="card-component.js" defer></script>
+</head>
+<body>
+  
+  <!-- Using the custom card component -->
+  <custom-card style="--card-bg-color: #f5f5f5; --card-border-color: #ddd;" data-title="Card Title" data-footer="Footer Content">
+    <img slot="header" src="https://via.placeholder.com/150" alt="Header Image">
+    <p slot="content">This is some sample content inside the card component. Customize me with different attributes and styles!</p>
+    <button slot="footer">Learn More</button>
+  </custom-card>
+
+  <custom-card style="--card-bg-color: #e0f7fa;">
+    <h3 slot="header">Another Card Header</h3>
+    <p slot="content">This card has a different header and background color!</p>
+    <footer slot="footer">Custom footer text</footer>
+  </custom-card>
+
+</body>
+</html>
